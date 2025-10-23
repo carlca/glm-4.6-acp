@@ -72,13 +72,13 @@ Once installed, you can use this server with Toad:
 export GLM_API_KEY="your_api_key_here"
 
 # Run with Toad
-uv run toad acp "glm-4-6-acp"
+uv run toad acp "glm-4-6-acp" --project-dir <project path>
 ```
 
 Or if you have the API key in your `.env` file, simply run:
 
 ```bash
-uv run toad acp "glm-4-6-acp"
+uv run toad acp "glm-4-6-acp"  --project-dir <project path>
 ```
 
 ### Direct Usage
