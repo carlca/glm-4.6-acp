@@ -1,0 +1,16 @@
+[project]
+name = "glm-4.6-acp"
+version = "0.1.0"
+description = "Anthropic Context Protocol (ACP) Server for GLM 4.6 model from z.ai"
+authors = [{name = "User", email = "user@example.com"}]
+dependencies = [
+    "httpx>=0.24.0"
+]
+requires-python = ">=3.8"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+glm-4-6-acp = "glm_acp_server:main"
